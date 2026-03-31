@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1774867429605,
+  "lastScanned": 1774958850009,
   "projectRoot": "D:\\Documents\\simsys\\ai_agent_edu_dev\\stock-supporters-frontend",
   "techStack": {
     "languages": [
@@ -77,7 +77,7 @@
       "path": "app",
       "purpose": "Application code",
       "fileCount": 4,
-      "lastAccessed": 1774867429479,
+      "lastAccessed": 1774958849951,
       "keyFiles": [
         "favicon.ico",
         "globals.css",
@@ -89,21 +89,21 @@
       "path": "features",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1774867429509,
+      "lastAccessed": 1774958849952,
       "keyFiles": []
     },
     "infrastructure": {
       "path": "infrastructure",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1774867429510,
+      "lastAccessed": 1774958849953,
       "keyFiles": []
     },
     "public": {
       "path": "public",
       "purpose": "Public files",
       "fileCount": 5,
-      "lastAccessed": 1774867429510,
+      "lastAccessed": 1774958849953,
       "keyFiles": [
         "file.svg",
         "globe.svg",
@@ -116,14 +116,14 @@
       "path": "ui",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1774867429511,
+      "lastAccessed": 1774958849953,
       "keyFiles": []
     },
     "infrastructure\\config": {
       "path": "infrastructure\\config",
       "purpose": "Configuration files",
       "fileCount": 1,
-      "lastAccessed": 1774867429514,
+      "lastAccessed": 1774958849955,
       "keyFiles": [
         "env.ts"
       ]
@@ -132,122 +132,13 @@
       "path": "ui\\components",
       "purpose": "UI components",
       "fileCount": 2,
-      "lastAccessed": 1774867429515,
+      "lastAccessed": 1774958849955,
       "keyFiles": [
         "Navbar.tsx",
         "TextField.tsx"
       ]
     }
   },
-  "hotPaths": [
-    {
-      "path": "ui\\components\\Navbar.tsx",
-      "accessCount": 4,
-      "lastAccessed": 1774956860263,
-      "type": "file"
-    },
-    {
-      "path": "features\\stock-recommendation\\infrastructure\\api\\marketAnalysisApi.ts",
-      "accessCount": 3,
-      "lastAccessed": 1774957779027,
-      "type": "file"
-    },
-    {
-      "path": "features\\stock-recommendation\\ui\\components\\StockQuestionForm.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1774957536589,
-      "type": "file"
-    },
-    {
-      "path": "ui\\layout\\AppLayout.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1774955306804,
-      "type": "file"
-    },
-    {
-      "path": "ui\\components\\navbar\\navbarStyles.ts",
-      "accessCount": 1,
-      "lastAccessed": 1774955307215,
-      "type": "file"
-    },
-    {
-      "path": "app\\stock\\page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1774955413009,
-      "type": "file"
-    },
-    {
-      "path": "ui\\components\\TextField.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1774956840871,
-      "type": "file"
-    },
-    {
-      "path": "app\\stock-recommendation\\page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1774956856171,
-      "type": "file"
-    },
-    {
-      "path": "features\\auth\\application\\hooks\\useAuth.ts",
-      "accessCount": 1,
-      "lastAccessed": 1774957491517,
-      "type": "file"
-    },
-    {
-      "path": "features\\auth\\application\\selectors\\authSelectors.ts",
-      "accessCount": 1,
-      "lastAccessed": 1774957492017,
-      "type": "file"
-    },
-    {
-      "path": "infrastructure\\http\\httpClient.ts",
-      "accessCount": 1,
-      "lastAccessed": 1774957492532,
-      "type": "file"
-    },
-    {
-      "path": "features\\auth\\application\\hooks\\useTermsAccess.ts",
-      "accessCount": 1,
-      "lastAccessed": 1774957496762,
-      "type": "file"
-    },
-    {
-      "path": "features\\auth\\application\\atoms\\authAtom.ts",
-      "accessCount": 1,
-      "lastAccessed": 1774957497666,
-      "type": "file"
-    },
-    {
-      "path": "features\\auth\\domain\\state\\authState.ts",
-      "accessCount": 1,
-      "lastAccessed": 1774957504660,
-      "type": "file"
-    },
-    {
-      "path": "features\\stock-recommendation\\domain\\model\\marketAnalysis.ts",
-      "accessCount": 1,
-      "lastAccessed": 1774957512008,
-      "type": "file"
-    },
-    {
-      "path": "features\\stock-recommendation\\application\\hooks\\useStockRecommendation.ts",
-      "accessCount": 1,
-      "lastAccessed": 1774957524914,
-      "type": "file"
-    },
-    {
-      "path": "infrastructure\\config\\env.ts",
-      "accessCount": 1,
-      "lastAccessed": 1774957610343,
-      "type": "file"
-    },
-    {
-      "path": "infrastructure\\http\\apiResponse.ts",
-      "accessCount": 1,
-      "lastAccessed": 1774957767774,
-      "type": "file"
-    }
-  ],
+  "hotPaths": [],
   "userDirectives": []
 }
