@@ -141,21 +141,39 @@
   },
   "hotPaths": [
     {
+      "path": "infrastructure\\http\\httpClient.ts",
+      "accessCount": 6,
+      "lastAccessed": 1775056831584,
+      "type": "file"
+    },
+    {
       "path": "infrastructure\\config\\env.ts",
       "accessCount": 4,
       "lastAccessed": 1775051855205,
       "type": "file"
     },
     {
-      "path": "infrastructure\\http\\httpClient.ts",
-      "accessCount": 3,
-      "lastAccessed": 1775051482286,
+      "path": "app\\stock-recommendation\\page.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1775052732580,
       "type": "file"
     },
     {
-      "path": "app\\stock-recommendation\\page.tsx",
+      "path": "app\\page.tsx",
       "accessCount": 3,
-      "lastAccessed": 1775052083238,
+      "lastAccessed": 1775053143187,
+      "type": "file"
+    },
+    {
+      "path": "infrastructure\\http\\agentHttpClient.ts",
+      "accessCount": 3,
+      "lastAccessed": 1775056837005,
+      "type": "file"
+    },
+    {
+      "path": "features\\auth\\application\\hooks\\useAuth.ts",
+      "accessCount": 3,
+      "lastAccessed": 1775057060815,
       "type": "file"
     },
     {
@@ -249,12 +267,6 @@
       "type": "file"
     },
     {
-      "path": "features\\auth\\application\\hooks\\useAuth.ts",
-      "accessCount": 1,
-      "lastAccessed": 1775051231497,
-      "type": "file"
-    },
-    {
       "path": "features\\auth\\infrastructure\\api\\authApi.ts",
       "accessCount": 1,
       "lastAccessed": 1775051231931,
@@ -264,12 +276,6 @@
       "path": "features\\board\\domain\\model\\boardPost.ts",
       "accessCount": 1,
       "lastAccessed": 1775051232097,
-      "type": "file"
-    },
-    {
-      "path": "app\\page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775051237577,
       "type": "file"
     },
     {
@@ -366,12 +372,6 @@
       "path": "C:\\Users\\yjkim\\.claude\\plans\\mutable-mixing-hopper.md",
       "accessCount": 1,
       "lastAccessed": 1775051538575,
-      "type": "file"
-    },
-    {
-      "path": "infrastructure\\http\\agentHttpClient.ts",
-      "accessCount": 1,
-      "lastAccessed": 1775051861034,
       "type": "file"
     },
     {

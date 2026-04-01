@@ -68,7 +68,7 @@ export default function StockAnalysisView() {
     : "";
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-4">
       <AnalysisInputForm onSubmit={submit} />
 
       {resultStatus === "partial_failure" && (
@@ -78,20 +78,26 @@ export default function StockAnalysisView() {
         </div>
       )}
 
-      <AnalysisResultHeader
-        ticker={ticker}
-        answer={result.answer}
-        overallSignal={overallSignal}
-        overallConfidence={overallConfidence}
-      />
+      {/* 2단 레이아웃: 왼쪽 = 종합 결과 + 이력, 오른쪽 = 에이전트 카드 */}
+      <div className="flex flex-col gap-4 lg:flex-row lg:items-start">
+        {/* 왼쪽 패널 */}
+        <div className="flex flex-col gap-4 lg:w-80 lg:shrink-0">
+          <AnalysisResultHeader
+            ticker={ticker}
+            answer={result.answer}
+            overallSignal={overallSignal}
+            overallConfidence={overallConfidence}
+          />
+          <HistoryTimeline history={history} />
+        </div>
 
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-        {result.agentResults.map((agentResult) => (
-          <AgentCard key={agentResult.agentName} result={agentResult} />
-        ))}
+        {/* 오른쪽 패널: 에이전트 카드 */}
+        <div className="flex flex-col gap-4 flex-1 min-w-0">
+          {result.agentResults.map((agentResult) => (
+            <AgentCard key={agentResult.agentName} result={agentResult} />
+          ))}
+        </div>
       </div>
-
-      <HistoryTimeline history={history} />
     </div>
   );
 }
